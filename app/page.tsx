@@ -95,7 +95,7 @@ export default function Portfolio() {
     education: 1,
   })
 
-  const itemsPerPage = 3
+  const itemsPerPage = 4
   const itemsPerPageEdu = 2
 
   const paginateData = <T,>(data: T[], page: number): T[] => {
@@ -132,7 +132,7 @@ export default function Portfolio() {
 
 
   return (
-    <div className="h-screen bg-[#001233] text-[#979DAC] p-8 font-sans relative overflow-hidden">
+    <div className="h-screen bg-[#001233] text-[#979DAC] p-8 font-sans relative overflow-hidden font-cutive">
       <div className="absolute inset-0 bg-grid-pattern opacity-10" />
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}

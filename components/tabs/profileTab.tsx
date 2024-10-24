@@ -6,7 +6,7 @@ import { ProfileTabProps } from '@/lib/types/types'
 export function ProfileTab({ personalInfo }: ProfileTabProps) {
   return (
     <TabsContent value="profile">
-      <Card className="bg-[#001845] border-[#0466C8] h-[300px] ">
+      <Card className="bg-[#001845] border-[#0466C8] h-[300px] font-cutive ">
         <CardHeader className="pb-2 sm:pb-4">
           <CardTitle className="text-xl sm:text-2xl md:text-3xl text-[#0466C8]">Professional Summary</CardTitle>
         </CardHeader>
