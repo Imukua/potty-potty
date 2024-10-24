@@ -55,7 +55,11 @@ const config: Config = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		  fontFamily: {
+			roboto: ['var(--font-roboto)', 'sans-serif'], // Use the CSS variable
+			cutive: ['var(--font-cutive)', 'sans-serif'], // Use the CSS variable
+		  },
   	}
   },
   plugins: [require("tailwindcss-animate")],

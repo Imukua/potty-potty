@@ -8,7 +8,7 @@ import { ExternalLink } from 'lucide-react'
 export function EducationTab({ education, currentPage, paginateData }: EducationTabProps) {
   return (
     <TabsContent value="education">
-      <Card className="bg-[#001845] border-[#0466C8] h-[250px] overflow-hidden">
+      <Card className="bg-[#001845] border-[#0466C8] h-[300px] overflow-hidden">
         <CardHeader className='pb-2'>
           <CardTitle className="text-xl sm:text-2xl text-[#0466C8]">Education</CardTitle>
         </CardHeader>

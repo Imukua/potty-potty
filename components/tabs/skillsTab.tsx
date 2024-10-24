@@ -7,7 +7,7 @@ import { SkillsTabProps } from '@/lib/types/types'
 export function SkillsTab({ skills, currentPage, paginateData }: SkillsTabProps) {
   return (
     <TabsContent value="skills">
-      <Card className="bg-[#001845] border-[#0466C8] h-[250px] overflow-hidden">
+      <Card className="bg-[#001845] border-[#0466C8] h-[300px] overflow-hidden">
         <CardHeader>
           <CardTitle className="text-xl sm:text-2xl text-[#0466C8]">Technical Skills</CardTitle>
         </CardHeader>
@@ -22,7 +22,7 @@ export function SkillsTab({ skills, currentPage, paginateData }: SkillsTabProps)
               className="space-y-6"
             >
               {paginateData(skills, currentPage.skills).map((skill, index) => (
-                <div key={index} className="flex items-center justify-between">
+                <div key={index} className="flex items-center justify-between ">
                   <div className="flex items-center">
                     <skill.icon className="w-5 h-5 mr-2 text-[#7EADFC]" />
                     <a
